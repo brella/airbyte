@@ -1,0 +1,31 @@
+documentationUrl: https://brella.io
+connectionSpecification:
+  $schema: http://json-schema.org/draft-07/schema#
+  title: Brella Integration Api Spec
+  type: object
+  required:
+    - brella_api_access_token
+    - organization_id
+    - event_id
+  properties:
+    brella_api_access_token:
+      type: string
+      description: Brella API access token
+      pattern: ^[a-zA-Z0-9]+$
+      examples:
+        - yRSSfQUDdXolMQU06V8ShIUhEVGUg2d5CYg3isgb
+        - FJSLQHDRwXEB6rBx9Kr85kfnhfOhdfOtN6qAiFWa
+    organization_id:
+      type: integer
+      description: Your organizations's id
+      pattern: ^[0-9]+$
+      examples:
+        - 1
+        - 2
+    event_id:
+      type: integer
+      description: Id of an event in your organization
+      pattern: ^[0-9]+$
+      examples:
+        - 1
+        - 2

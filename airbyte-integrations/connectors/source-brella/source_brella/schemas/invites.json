@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+     "external_email": {
+      "type": ["null", "string"]
+    },
+    "fill_token": {
+      "type": ["null", "string"]
+    },
+    "external_email": {
+      "type": ["null", "string"]
+    },
+     "external_first_name": {
+      "type": ["null", "string"]
+    },
+     "external_last_name": {
+      "type": ["null", "string"]
+    },
+     "external_id": {
+      "type": ["null", "string"]
+    },
+     "external_title": {
+      "type": ["null", "string"]
+    },
+     "external_company": {
+      "type": ["null", "string"]
+    },
+     "qr_string": {
+      "type": ["null", "string"]
+    },
+     "attendee_group_name": {
+      "type": ["null", "string"]
+    },
+    "created_at": {
+      "type": ["null", "string"],
+      "format": "date-time"
+    },
+     "seat_count": {
+      "type": ["null", "string"]
+    },
+     "free_seat_count": {
+      "type": ["null", "string"]
+    },
+    "updated_at": {
+      "type": ["null", "string"],
+      "format": "date-time"
+    }
+  }
+}
